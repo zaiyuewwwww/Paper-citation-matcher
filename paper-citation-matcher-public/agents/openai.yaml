@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper Citation Matcher"
+  short_description: "Sentence-level citation matching for papers"
+  default_prompt: "Build a sentence-level citation matching table for the requested manuscript section, detect manually marked sources inside 【】 and [], treat title markers as the highest-priority signal of already-used literature, prioritize new literature before reusing existing citations, preserve highlighted sources when appropriate, enforce citation coverage sentence by sentence, and optionally write approved citations back into the document with references."
